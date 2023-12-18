@@ -22,16 +22,16 @@ int main()
         switch (choix)
         {
     
-            case 2:
+            case 3:
                 printf("la somme est : %d ", multiplication(a,b));
                 break;
-            case 4:
-                printf("la division est %d ", division(a,b));
+            case 2:
+                printf("la division est %d ", soustration(a,b));
                 break;
             case 1:
                 printf("somme est %d\n",addition(a,b));
                 break;
-            case 3:
+            case 4:
                 printf("la divition est %d\n",division(a,b));
                 break;
             
