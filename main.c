@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdlib.h>
 #include "head.h"
 int main()
 {
@@ -6,6 +7,7 @@ int main()
     int a,b;
     do
     {
+        system("clear");
         printf("########################################\n");
         printf("\t 1 -> add\n");
         printf("\t 2 -> sous\n");
@@ -14,7 +16,7 @@ int main()
         printf("\t 0 -> QUIT\n");
         printf("\n faites un choix !!");
         scanf("%d",&choix);
-        if( choix != 0)
+        if( choix > 0 && choix < 5)
         {
             printf("entrez les deux nombre a et b\n");
             scanf("%d %d",&a,&b);
@@ -34,13 +36,15 @@ int main()
             case 4:
                 printf("la divition est %d\n",division(a,b));
                 break;
-            
+            case 0:
+                printf("merci:)\n");
+                break;
             default:
                 printf("option invalide !!\n");
-            break;
+                break;
         }
     }while(choix != 0);
-    printf("merci:)\n");
+    
     
 
     return 0;
