@@ -25,6 +25,12 @@ int main()
             printf("")
             /* code */
             break;
+        case 2:
+            printf("la somme est : %d ", multiplication(a,b));
+            break;
+        case 4:
+            printf("la division est %d ", division(a,b));
+            break;
         
         default:
             break;
