@@ -2,7 +2,7 @@
 #define HEAD__H__
 
     int addition(int , int);
-    int mutiplication(int , int);
+    int multiplication(int , int);
     int division(int , int);
     int soustration(int , int);
     // prototype de fonction as ecrrirr
