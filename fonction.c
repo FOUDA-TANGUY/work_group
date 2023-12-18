@@ -10,7 +10,7 @@ int addition(int a , int b)
 int multiplication(int a , int b)
 {
     int pro;
-    prod = a*b;
+    pro = a*b;
     return pro;
 }
 int soustration(int a , int b)
