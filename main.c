@@ -14,7 +14,7 @@ int main()
         printf("\t 3 -> mul\n");
         printf("\t 4 -> div\n");
         printf("\t 0 -> QUIT\n");
-        printf("\n faites un choix !!");
+        printf("\n faites un choix !!\n");
         scanf("%d",&choix);
         if( choix > 0 && choix < 5)
         {
