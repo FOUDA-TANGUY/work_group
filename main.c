@@ -22,21 +22,18 @@ int main()
         switch (choix)
         {
         case 1:
-            printf("")
-            /* code */
+            printf("somme est %d\n",addition(a,b));
             break;
-        case 2:
-            printf("la somme est : %d ", multiplication(a,b));
-            break;
-        case 4:
-            printf("la division est %d ", division(a,b));
+        case 3:
+            printf("la divition est %d\n",division(a,b));
             break;
         
         default:
+            printf("option invalide !!\n");
             break;
         }
     }while(choix != 0);
-    
+    printf("Meci de visite notre application\n");
 
     return 0;
 }
